@@ -31,3 +31,5 @@ for i in range (0,100):
         os.mkdir(f"collections/data{(i)}")
 size = os.path.getsize("collections")
 print(size)
+
+os.removedirs(r"C:\Upendra\Python\collections")
